@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Mervyn Thomas">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="../CSS/style.css">
+	<link rel="icon" href="../IMG/minilogo.png">
+	<title> Appointment | Ministry of Health </title>
+</head>
+    
+<ul class="menu">
+		<li><img src="../IMG/minilogo.png" alt="logo of the ministry of trinidad and tobago" id="minilogo"></li>
+       <li> <a href="../HTML/homepage.html"> Home </a> </li>
+       <li> <a href="#"> Appointment Application </a> </li>
+       <li> <a href="../HTML/testi.html"> Testimonals </a> </li>
+       <li> <a href="../HTML/contact.html"> Contact Us </a> </li>
+</ul>
+	
+	<nav class="menuindex">
+    <button class="button" onclick="window.open('../HTML/Loginpage.html')"> Sign In </button>
+    <button class="button" onclick="window.open('../HTML/registerpage.html')"> Sign Up </button>
+</nav>
+
+<form class="appointmentform">
+<fieldset>
+			
+			<legend>  Appointment Form </legend>		<!--Borrowed struture from personal html code-->
+			<label> Title&colon; </label>
+			<select class="textboxex" name="Title" required>
+				<option value="" selected="selected"> Select a Title </option>
+				<option value="Ms."> Ms. </option>
+				<option value="Mr."> Mr. </option>
+				<option value="Mrs."> Mrs. </option>
+			</select>
+			<br><br>
+			
+		<label> First Name&colon; </label>
+			<input type="text" name="fname" class="textboxex" placeholder="Enter Your First Name" required> <br> <br>
+			
+			<label> Middle Name &colon; </label>
+			<input type="text" class="textboxex" name="mname"  placeholder="Enter Only If Applicable" required > <br> <br>
+			
+		<label> Last Name&colon; </label>
+			<input type="text" class="textboxex" name="lname" placeholder="Enter Your Last Name" required > <br> <br>
+			
+		<label> Gender&colon; </label><br>
+			&nbsp;&nbsp;&nbsp;
+			Male <input type="radio" class="textboxex" name="gender"  value="Male" required>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Female <input type="radio" class="textboxex" name="gender"  value="Female" required><br><br>
+			
+		<label> Address&colon; </label>
+			 <input type="text" class="textboxex" placeholder="Enter Your Address" required><br><br>
+			 
+			 	<label> Select Hospital&colon; </label>
+			<input type="text" class="textboxex" name="hospitalselect" placeholder="Enter Suitable Hospital" required> <br><br>
+		
+			<label> Select Time and Date&colon; </label>
+			<input type="date" name="dateselect" class="date" required>
+			<input type="time" name="timeselect" class="date" required><br><br>
+			
+			
+		<label> Email Address&colon; </label>
+			<input type="text" class="textboxex" name="email" placeholder="Enter E-mail Address" required> <br> <br>
+
+		<label> Phone Number&colon; </label>
+			<input type="text" class="textboxex" name="phonenum" placeholder="Eg:1-868-748-2849" required> <br> <br> 
+			
+		<button type="submit" value="submit"  class="button" formaction="../HTML/endapp.html">SUBMIT</button> &nbsp;
+			
+		<button type="reset" value="reset"  class="button" >CLEAR</button>
+
+			
+</fieldset>
+</form>
+<div class="appointmentform1">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d502156.0546853434!2d-61.52381825230253!3d10.49324189315376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospital!5e0!3m2!1sen!2stt!4v1746554337532!5m2!1sen!2stt" 
+		width="600" height="450" id="mapiframe" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br> <br>	
+		<p> *Use The Map To Select A Hospital of Your Choosing </p>
+		</div>
+
+	  <br><br>
+<footer>
+	&copy;Ministry of Health
+</footer>
+
+</html>
+
+ 
+

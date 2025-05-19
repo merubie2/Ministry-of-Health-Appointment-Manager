@@ -1,0 +1,369 @@
+ h1 {
+	 font-family:"Times New Roman";
+	 font-size:50px;
+	 text-align:center;
+ }
+ 
+  h3 {
+	 font-family:"Times New Roman";
+	 font-size:20px;
+	 text-align:center;
+ }
+ 
+ body {
+		background-image: url("../IMG/simple.jpg");
+		color:white;
+ }
+	
+		
+ p 	{
+		font-family:"Times New Roman";
+		font-size:35px;
+		text-align:center;
+ }
+
+ 
+ #minilogo { width:100px; height:100px;}
+
+
+
+	
+.menu {									/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+		list-style:none;
+		background:#000; 
+		font-family:verdana;
+		padding-right:15px;
+		padding-left:15px;
+		display:flex;
+		justify-content:space-between;
+		font-size:18px;
+		font-weight:bold; 
+		text-align:right;
+		align-items:center;
+}
+
+.menuindexlogo {									/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+		list-style:none;
+		font-family:verdana;
+		padding-left:500px;
+		font-size:18px;
+		font-weight:bold; 
+		margin-left:100px;
+
+}
+
+.menuindex {									/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+		list-style:none;
+		font-family:verdana;
+		padding-left:520px;
+		font-size:18px;
+		font-weight:bold; 
+		margin-left:100px;
+
+}
+
+.menuindex1 {									/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+		list-style:none;
+		font-family:verdana;
+		padding-left:580px;
+		font-size:18px;
+		font-weight:bold; 
+		margin-left:100px;
+
+}
+
+.menuindex2 {									/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+		list-style:none;
+		font-family:verdana;
+		padding-left:490px;
+		font-size:18px;
+		font-weight:bold; 
+		margin-left:100px;
+
+}
+
+
+a { 
+	text-decoration:none;
+	color:white;
+}
+
+
+
+a:hover  {							/*referneced from W3 Schools*/
+			color:#98d1e7;
+			font-size:25px;
+}
+
+a:active  {
+			color: #DC143C;			/*referneced from W3 Schools*/
+			font-size:25px;
+}
+
+.noulink {
+			color:#98d1e7;
+}
+
+
+
+.button { 							/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+		color:white;
+		background-color:black;
+		margin-right: 10px;
+		border-radius:10px; 
+		padding: 10px;
+		width:90px;
+		color:white;
+		font-weight:bold;
+		font-size:15px;  
+		text-decoration:none; 
+}
+
+
+
+.button:hover {									/*referneced from W3 Schools*/
+				 background-color: #fff;
+				color: #000
+}
+
+.button:active  {								/*referneced from W3 Schools*/
+			color:#DC143C;
+			font-size:20px;
+}
+		
+		
+#loginbox {							/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+			position:relative;
+			width:410px;
+			height:450px;
+			font-size:10px;
+			color:#fff;
+			border: 2px solid;
+			border-radius:19px;
+			overflow:hidden;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;	
+}
+
+#regisbox {							/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+			position:relative;
+			width:410px;
+			height:650px;
+			font-size:10px;
+			color:#fff;
+			border: 2px solid;
+			border-radius:19px;
+			overflow:hidden;
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;	
+}
+
+.formstart {					/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  overflow: hidden;
+  grid-column:2;
+  grid-row:2;
+}
+
+.input-field {						/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+
+.formname {
+	font-size: 1.0rem;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+footer {
+  left: 0;
+  bottom: 10;
+  width: 100%;
+  text-align: center;
+  display:flex;
+}
+
+#indeximg {
+			width:600px;
+			height:400px;
+			border:3px solid #98d1e7;
+			background-color:#98d1e7;
+			border-radius:10px;
+
+}
+
+legend {font-size:70px;
+		}
+
+fieldset { font-size:20px;
+			padding:1px;
+}
+
+form  {
+	width:60x;
+	display:block;
+}
+
+.appointmentform {
+					float:left;
+					padding:5px;
+					margin:15px;
+}
+
+
+.appointmentform1 {
+					float:right;
+					padding:10px;
+					margin:10px;
+					
+}
+
+#mapiframe {
+				width: 600;
+				height: 450;
+				border:4px solid #000 ;
+				border-radius:14px;
+				margin-right:auto;
+				margin-left:auto;
+				display:block;
+}
+.textboxex {							/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+		position:absolute;
+		height:30px;
+		text-align:center;
+		outline:none;
+		padding:0 6px;
+		border:2px solid;
+		border-radius:10px;
+		margin-left:px;
+		font-size:20px;
+}
+
+
+.date {
+		border:2px solid;
+		border-radius:10px;
+		font-size:20px;
+}
+
+.logtext{ padding:0 20px;}
+
+.stare {
+		width:30px;
+		height:30px;
+}
+
+
+.testimg {								/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+			height: 150px;
+			width:150px;
+			border:4px solid #000 ;
+			border-radius:50%;
+			margin-right:auto;
+			margin-left:auto;
+			display:block;
+			margin-bottom:10px;
+}
+
+.container {										/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+			display:grid;
+			grid-template-columns: repeat(3,1fr);
+			grid-gap:50px;
+			width:80%;
+			margin:auto;
+			margin-top:5%;
+			color:black;
+}
+
+
+.testiv {											/*referneced from CodeHal, Ludiflex, Coding Ninja*/
+			text-align:center;
+			padding:1.5rem;
+			border:3px solid #98d1e7;
+			background-color:#98d1e7;
+}
+
+#contactinfo {
+		font-family:"Times New Roman";
+		font-size:25px;
+		text-align:center;
+}
+
+.socialicon {
+				height:50px;
+				width:50px;
+				padding:10px;
+				margin:1px;
+}
+
+#endimg {
+			border:3px solid #98d1e7;
+			background-color:#98d1e7;
+			border-radius:10px;
+			display: block;
+			margin: auto;
+			width: 800px;
+			height:500px;
+}
+
+
+#endend {
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 5rem;
+}
+
+#banner {
+			border:3px solid #98d1e7;
+			background-color:#98d1e7;
+			border-radius:10px;
+			display: block;
+			margin: auto;
+			width: 1000px;
+			height:400px;
+}
+
+
+
+.iframepdf{
+			border:3px solid #98d1e7;
+			background-color:#98d1e7;
+			border-radius:10px;
+			display: block;
+			margin: auto;
+			width: 80%;
+			height:800px;
+			padding:1px;
+}
+
+.registerloginaction{ font-size:15px;
+					  padding:2px;
+}
+
+.dologin1 {color: teal;
+}
+
+#mapright {
+				width: 600px;
+				height:400px;
+				padding:0 800px;
+				
+}
+		
